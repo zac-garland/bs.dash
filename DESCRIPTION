@@ -12,3 +12,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Depends: 
     bs4Dash
+URL: https://github.com/zac-garland/bs.dash
+BugReports: https://github.com/zac-garland/bs.dash/issues
