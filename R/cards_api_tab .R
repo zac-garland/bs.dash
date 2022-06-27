@@ -23,7 +23,7 @@ cards_api_tab <- function() {
       solidHeader = FALSE,
       collapsible = TRUE,
       sliderInput("obsAPI", "Number of observations:",
-                  min = 0, max = 1000, value = 500
+        min = 0, max = 1000, value = 500
       ),
       plotOutput("cardAPIPlot")
     )

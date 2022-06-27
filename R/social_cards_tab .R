@@ -2,46 +2,6 @@ social_cards_tab <- function() {
   tabItem(
     tabName = "socialcards",
     fluidRow(
-      userBox(
-        title = userDescription(
-          image = "https://adminlte.io/themes/AdminLTE/dist/img/user1-128x128.jpg",
-          title = "User card type 1",
-          subtitle = "a subtitle here"
-        ),
-        collapsible = FALSE,
-        ribbon(
-          text = "New user",
-          color = "fuchsia"
-        ),
-        status = "purple",
-        elevation = 4,
-        "Any content here"
-      ),
-      userBox(
-        title = userDescription(
-          type = 2,
-          image = "https://adminlte.io/themes/AdminLTE/dist/img/user7-128x128.jpg",
-          title = "User card type 2",
-          subtitle = "a subtitle here",
-          imageElevation = 4
-        ),
-        status = "primary",
-        background = "teal",
-        maximizable = TRUE,
-        gradient = TRUE,
-        progressBar(
-          value = 5,
-          striped = FALSE,
-          status = "info"
-        ),
-        progressBar(
-          value = 20,
-          striped = TRUE,
-          status = "warning"
-        )
-      )
-    ),
-    fluidRow(
       socialBox(
         title = userBlock(
           image = "https://adminlte.io/themes/AdminLTE/dist/img/user4-128x128.jpg",
